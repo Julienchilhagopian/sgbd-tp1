@@ -12,5 +12,11 @@ public class Main {
 
         System.out.println(fifo.getFifo());
         System.out.println(fifo.getPage_miss());
+
+        LRU lru = new LRU();
+        lru.start(letters, 4);
+        System.out.println(lru.getLru());
+        System.out.println(lru.getPage_miss());
+
     }
 }

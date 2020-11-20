@@ -17,13 +17,15 @@ public class Fifo {
                     index.add(page);
                 }
             } else {
-                String val = index.get(0);
-                index.removeFirst();
+                if (!fifo.contains(page)) {
+                    String val = index.get(0);
+                    index.removeFirst();
 
-                fifo.remove(val);
-                fifo.add(page);
-                index.add(page);
-                page_miss++;
+                    fifo.remove(val);
+                    fifo.add(page);
+                    index.add(page);
+                    page_miss++;
+                }
             }
 
         }
