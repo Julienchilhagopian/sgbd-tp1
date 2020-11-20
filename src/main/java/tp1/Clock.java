@@ -44,9 +44,9 @@ public class Clock {
                     	}          
                     } else {
                     	secondChance.set(clock.indexOf(page), "1");
+                    	changePage = true;
                     }
             	}
-            	
             }
         }
     }
