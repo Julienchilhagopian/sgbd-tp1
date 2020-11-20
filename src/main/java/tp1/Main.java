@@ -6,6 +6,7 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) {
         LinkedList<String> letters = new LinkedList<>(Arrays.asList("A", "B", "C", "D", "E", "A", "B", "C", "D", "E"));
+        LinkedList<String> lettersClock = new LinkedList<>(Arrays.asList("A", "B", "C", "D", "B", "E", "B", "D"));
 
         Fifo fifo = new Fifo();
         fifo.start(letters, 4);
@@ -18,7 +19,7 @@ public class Main {
         System.out.println(lru.getPage_miss());
         
         Clock clock = new Clock();
-        clock.start(letters, 4);
+        clock.start(lettersClock, 3);
         System.out.println(clock.getClock());
         System.out.println(clock.getPage_miss());
         
