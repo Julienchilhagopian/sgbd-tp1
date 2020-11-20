@@ -44,9 +44,7 @@ public class LRU {
             i++;
         }
 
-
     }
-
 
     public LinkedList<String> getLru() {
         return lru;
