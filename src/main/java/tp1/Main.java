@@ -9,7 +9,6 @@ public class Main {
 
         Fifo fifo = new Fifo();
         fifo.start(letters, 4);
-
         System.out.println(fifo.getFifo());
         System.out.println(fifo.getPage_miss());
 
@@ -17,6 +16,12 @@ public class Main {
         lru.start(letters, 4);
         System.out.println(lru.getLru());
         System.out.println(lru.getPage_miss());
+        
+        Clock clock = new Clock();
+        clock.start(letters, 4);
+        System.out.println(clock.getClock());
+        System.out.println(clock.getPage_miss());
+        
 
     }
 }
