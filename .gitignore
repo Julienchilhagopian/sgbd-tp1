@@ -1,4 +1,8 @@
+.classpath
+.project
+.settings/
+target/
 out.log
 
-target/
-
+.DS_Store
+.idea
