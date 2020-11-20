@@ -5,8 +5,10 @@ import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList<String> letters = new LinkedList<>(Arrays.asList("A", "B", "C", "D", "E", "A", "B", "C", "D", "E"));
+       LinkedList<String> letters = new LinkedList<>(Arrays.asList("A", "B", "C", "D", "E", "A", "B", "C", "D", "E"));
         LinkedList<String> lettersClock = new LinkedList<>(Arrays.asList("A", "B", "C", "D", "B", "E", "B", "D"));
+
+        //LinkedList<String> lettersFifo = new LinkedList<>(Arrays.asList("A", "B", "C", "D", "B", "A", "E", "F", "B", "A","B", "C", "G", "F", "C", "B", "A", "B", "C", "F"));
 
         Fifo fifo = new Fifo();
         fifo.start(letters, 4);
