@@ -1,6 +1,8 @@
 # Lab 1 - Documentation
 #### Léo GEINDRE - Julien CHIL HAGOPIAN
 
+### Contexte
+
 Toutes nos expériences ont été réalisées avec k = 3 (3 pages stockées). 
 
 ## Cas : LRU Gagne
