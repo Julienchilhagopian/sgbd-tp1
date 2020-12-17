@@ -24,7 +24,5 @@ public class Main {
         clock.start(lettersClock, 3);
         System.out.println(clock.getClock());
         System.out.println(clock.getPage_miss());
-        
-
     }
 }
