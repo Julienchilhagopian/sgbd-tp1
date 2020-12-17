@@ -26,4 +26,5 @@ Dans notre exemple, avec 3 pages de stockées. Si une page "P" est stockée en 3
 Liste de données : "A", "G", "E", "F", "B", "C", "H", "E", "B", "E", "H", "I", "G", "E", "F", "G", "E", "A", "G"
 
 ### Explications 
-
+A part pour des cas très précis, comme dans notre exemple précédent. L'algorithme Clock peut être considéré comme une version améliorée d'un FIFO. 
+De plus, l'algorithme Clock est moins sensible à l'apparition de nouvelles pages qui ne seront pas rappelées tout de suite dans une suite de données. Ce qui lui permet, dans notre exemple, avec l'apparition de page "I", de l'emporter sur LRU. 
