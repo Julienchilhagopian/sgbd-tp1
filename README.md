@@ -1,6 +1,6 @@
 # Lab 1 - Documentation
 
-Toutes nos expériences ont été réalisées avec k = 3. 
+Toutes nos expériences ont été réalisées avec k = 3 (3 pages stockées). 
 
 ## Cas : LRU Gagne
 Liste de données : "A", "G", "A", "C", "A", "C", "E", "B", "D", "D", "E", "F", "G", "E"
@@ -17,6 +17,8 @@ algorithme qui se souviendra de cette donnée. En effet, L'espace entre les appe
 Liste de données : "A", "F", "B", "F", "B", "F", "B", "E", "E", "F", "A", "B", "C","E", "A", "B", "A", "E", "D", "C"
 
 ### Explications 
+De façon générale, LRU reste souvent plus efficace que FIFO. 
+Dans notre exemple, avec 3 pages de stockées. Si une page "P" est stockée en 3eme position (en sécurité). Si les 2 premières pages stockées sont répétées de nombreuses fois. FIFO est le seul algorithme où la page P reste à sa position. Les autres stratégies positionneraient, cette page "P", en position de danger. A l'apparition d'une nouvelle page, FIFO remplacera la première page stockée. Tandis que, les autres algorithmes remplaceront la page P passée en position de sursis.
 
 
 
