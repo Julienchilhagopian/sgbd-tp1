@@ -1,4 +1,5 @@
 # Lab 1 - Documentation
+#### Léo GEINDRE - Julien CHIL HAGOPIAN
 
 Toutes nos expériences ont été réalisées avec k = 3 (3 pages stockées). 
 
